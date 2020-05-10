@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+	"name": "Subreddit Omnibox Suggestion",
+	"version": "1.0",
+	
+	"description": "Entering \"r subreddit\" into the omnibox redirects to the proper subreddit. USE A SPACE, NOT A SLASH. For example, entering \"r all\" goes to \"https://reddit.com/r/all/\".",
+	
+	"omnibox": {
+		"keyword": "r"
+	},
+	
+	"background": {
+		"scripts": ["script.js"]
+	}
+}
